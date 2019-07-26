@@ -2,30 +2,40 @@ body {
     font-family: "Montserrat";
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.5
+}
+
+/*  Nav Bar Section */
+
 #title {
-   background-color: #ff4c68;
-   color: #fff;
+    background-color: #ff4c68;
+    color: #fff;
 }
 
 .container-fluid {
     padding: 3% 15% 7%;
 }
 
-h1 {
-    font-family: "Montserrat-Black";
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 2.79rem;
-    line-height: 1.5;
-}
-
-/* Navagation Bar */
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -57,7 +67,7 @@ h2 {
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
-    right: 30%;    
+    right: 30%;
 }
 
 /* Features-Section */
@@ -67,8 +77,6 @@ h2 {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    
-    
 }
 
 .feature-area {
@@ -76,10 +84,13 @@ h2 {
     padding: 5%;
 }
 
-h3 {
-    font-family: "Montserrat";
+.features-text {
     font-size: 1.2rem;
-    font-weight: 900;
+}
+
+.features-paragraph {
+    color: #8f8f8f;
+    font-size: 100%;
 }
 
 .font-icons {
@@ -91,10 +102,6 @@ h3 {
     color: #ff4c68;
 }
 
-p {
-    color: #8f8f8f;
-    font-size: 100%;
-}
 
 /* Testomonial-Section */
 
@@ -102,6 +109,10 @@ p {
     text-align: center;
     background-color: #ef8172;
     color: #fff;
+}
+
+.testimonial-paragraph {
+    font-size: 2.79rem;
 }
 
 .testimonial-image {
@@ -136,6 +147,16 @@ p {
     padding: 3% 2%;
 }
 
+.pricing-text {
+    font-size: 2.79rem;
+}
+
+.pricing-paragraph {
+    color: #8f8f8f;
+    font-size: 100%;
+}
+
+
 /* Call to Action */
 
 #cta {
@@ -159,9 +180,17 @@ p {
     text-align: center;
 }
 
+.footer-paragraph {
+    color: #8f8f8f;
+    font-size: 100%;
+
+}
+
 .social-icon {
     margin: 20px 10px;
 }
+
+/* Media Type */
 
 @media (max-width: 1028px) {
 
