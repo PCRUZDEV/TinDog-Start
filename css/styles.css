@@ -34,17 +34,27 @@ h1 {
     padding: 3% 7% 15%;
 }
 
+/* Color Section */
+
+.color-section {
+    background-color: #ff4c68;
+    color: #ff4c68;
+}
+
+.specific-color {
+    background-color: #ef8172;
+
+}
+
+.white-text {
+    color: #fff;
+}
+
 /* Container Section */
 
 .container-fluid {
     padding: 7% 15%;
 }
-
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 
 
 /* Title-Image */
@@ -120,8 +130,6 @@ h1 {
 
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-paragraph {
@@ -135,7 +143,6 @@ h1 {
 }
 
 #press {
-    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -169,8 +176,6 @@ h1 {
 /* Call to Action */
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: center;
 }
 
