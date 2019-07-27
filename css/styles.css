@@ -1,3 +1,5 @@
+/* Body Section */
+
 body {
     font-family: "Montserrat";
 }
@@ -22,19 +24,40 @@ h1 {
 .big-heading {
     font-family: "Montserrat";
     font-weight: 700;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
-/*  Nav Bar Section */
+
+/* Title Section */
+
+#title.container-fluid {
+    padding: 3% 7% 15%;
+}
+
+/* Container Section */
+
+.container-fluid {
+    padding: 7% 15%;
+}
 
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
+
+
+/* Title-Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
+
+
+/*  Nav Bar Section */
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -61,20 +84,10 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
-/* Title-Image */
-
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
-}
-
 /* Features-Section */
 
 #features {
     font-size: 1rem;
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
 }
@@ -121,10 +134,6 @@ h1 {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
     background-color: #ef8172;
     text-align: center;
@@ -162,7 +171,6 @@ h1 {
 #cta {
     background-color: #ff4c68;
     color: #fff;
-    padding: 7% 15%;
     text-align: center;
 }
 
@@ -176,7 +184,6 @@ h1 {
 /* Footer Section */
 
 #footer {
-    padding: 7% 15%;
     text-align: center;
 }
 
